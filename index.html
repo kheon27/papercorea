@@ -1,0 +1,664 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+
+
+<title>페이퍼코리아</title>
+  <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+   <![endif]-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+   <link href="css/all.css" rel="stylesheet" type="text/css">
+   <link href="css/style.css?v=1" rel="stylesheet" type="text/css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  
+ 
+</head>
+
+<body>
+
+  <div id="wrap">
+    <header id="header" class="flex"> <!--fixed -->
+        <h1 class="logo"><a href="#"><img src="images/logo.png" alt="헤드로고"></a></h1>
+        <nav class="nav">
+          <ul class="gnb flex">
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">지속가능경영</a><f/li>
+            <li><a href="#">사업내용</a></li>
+            <li><a href="#">투자정보</a></li>
+            <li><a href="#">기업홍보관</a></li>
+            <li><a href="#">문의센터</a></li>
+			<li>
+				<div class="lang">
+					<span class="lan-kor" style="cursor:pointer;">KR</span>
+					<span>|</span>
+					<span class="lan-eng" style="cursor: pointer;">EN</span>
+				</div>
+			</li>
+          </ul>
+          <nav class="nav_on">
+            <ul class="nav_on_gnb flex inner">
+              <li>
+                <a href="#">회사소개</a>
+                <ul class="nav_on_depth2">
+                  <li class="flex_col">
+                    <a href="#">인사말</a>
+                    <a href="#">주요연혁</a>
+                    <a href="#">경영이념</a>
+                    <a href="#">계열사</a>
+                    <a href="#">CI</a>
+                    <a href="#">오시는 길</a>
+                  </li>
+                </ul><!--nav_on_depth2-->
+              </li>
+              <li>
+                <a href="#">지속가능경영</a>
+                <ul class="nav_on_depth2">
+                  <li class="flex_col">
+                    <a href="#">수익창출경영</a>
+                    <a href="#">친환경경영</a>
+                    <a href="#">사회공헌활동</a>
+                    <a href="#">윤리경영</a>
+                  </li>
+                </ul><!--nav_on_depth2-->
+              </li>
+              <li>
+                <a href="#">사업내용</a>
+                <ul class="nav_on_depth2">
+                  <li class="flex_col">
+                    <a href="#">제지사업</a>
+                    <a href="#">부동산개발사업</a>
+                  </li>
+                </ul><!--nav_on_depth2-->
+              </li>
+              <li>
+                <a href="#">투자정보</a>
+                <ul class="nav_on_depth2">
+                  <li class="flex_col">
+                    <a href="#">공시정보</a>
+                    <a href="#">주가정보</a>
+                    <a href="#">재무정보</a>
+                    <a href="#">IR자료실</a>
+                  </li>
+                </ul><!--nav_on_depth2-->
+              </li>
+              <li>
+                <a href="#">기업홍보관</a>
+                <ul class="nav_on_depth2">
+                  <li class="flex_col">
+                    <a href="#">회사소식</a>
+                    <a href="#">TV광고</a>
+                    <a href="#">지면광고</a>
+                  </li>
+                </ul><!--nav_on_depth2-->
+              </li>
+              <li>
+                <a href="#">문의센터</a>
+                <ul class="nav_on_depth2">
+                  <li class="flex_col">
+                    <a href="#">제지관련문의</a>
+                    <a href="#">부동산개발관련문의</a>
+                    <a href="#">인재상</a>
+                    
+                  </li>
+                </ul><!--nav_on_depth2-->
+              </li>
+      
+            </ul><!--nav_on_gnb-->
+          </nav>   
+        </nav>
+        <div class="mobile-top-bar">
+          <div class="ico toggle-side-bar-btn" data-ico-now-animating="N">
+              <div></div>
+              <div></div>
+              <div></div>
+          </div>
+      </div>
+      
+      <!-- 좌측 사이드 바 메뉴 -->
+      <div class="left-side-bar-box">
+          <div class="left-side-bar">
+              <div class="menu-1" style="color: #222;">
+                  <ul>
+                      <li>
+                          <a href="#">회사소개</a>
+                          <ul>
+                                      <li><a href="#">인사말</a></li>
+                                      <li><a href="#">주요연혁</a></li>
+                                      <li><a href="#">경영이념</a></li>
+                                      <li><a href="#">계열사</a></li>
+                                      <li><a href="#"> CI</a></li>
+                                      <li><a href="#">오시는 길</a></li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#"> 지속가능경영</a>
+                          <ul>
+                                      <li><a href="#">수익창출경영</a></li>
+                                      <li><a href="#">친환경경영</a></li>
+                                      <li><a href="#">사회공헌활동</a></li>
+                                      <li><a href="#">윤리경영</a></li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">사업내용</a>
+                          <ul>
+
+                                      <li><a href="#">제지사업</a></li>
+                                      <li><a href="#">부동산개발사업</a></li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">투자정보</a>
+                          <ul>
+                    
+                                      <li><a href="#">공시정보</a></li>
+                                      <li><a href="#">주가정보</a></li>
+                                      <li><a href="#">재무정보</a></li>
+                                      <li><a href="#">IR자료실</a></li>
+                              
+  
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">기업홍보관</a>
+                          <ul>
+                             
+                                      <li><a href="#">회사소식</a></li>
+                                      <li><a href="#">TV광고</a></li>
+                                      <li><a href="#">지면광고</a></li>
+                                
+                       
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">문의센터</a>
+                          <ul>
+                           
+                                      <li><a href="#">제지관련문의</a></li>
+                                      <li><a href="#">부동산개발관련문의</a></li>
+                                      <li><a href="#">인재상</a></li>
+                                
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      </header>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+    <div class="swiper-slide">
+        <div class="slide1">
+        <div class="inner flex">
+            <div class="slide_in flex">
+              <p class="slide_in_num">01</p>
+              <div class="slide_in_txt">
+                <p class="mo">01</p>
+                <h2>친환경 제품 생산을 통해<b class="text_magenta"><b class="mob">&nbsp;</b>자원보호에 앞장서겠습니다</b></h2>
+                <p>오염물질의 현저한 저감, 에너지 절감을 통해 환경부 인증을 받은 사업장입니다.</p>
+              </div><!--slide_in_txt-->
+            </div><!--slide_in-->
+          </div><!--inner-->
+        </div>
+    </div>
+      <div class="swiper-slide">
+        <div class="slide2">
+          <div class="inner flex">
+              <div class="slide_in flex">
+                <p class="slide_in_num">02</p>
+                <div class="slide_in_txt">
+                  <p class="mo">02</p>
+                  <h2>지속적인 품질관리를 통해<b class="text_magenta"><b class="mob">&nbsp;</b>최상의 제품을 생산하겠습니다</b></h2>
+                  <p>고객사의 품질기준에 만족할 수 있도록 품질의 향상을 위해 끊임없이 노력하겠습니다.</p>
+                </div><!--slide_in_txt-->
+              </div><!--slide_in-->
+            </div><!--inner-->
+          </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide3">
+          <div class="inner flex">
+              <div class="slide_in flex">
+                <p class="slide_in_num">03</p>
+                <div class="slide_in_txt">
+                  <p class="mo">03</p>
+                  <h2>고객사와 함께 글로벌 시장에서<b class="text_magenta"><b class="mob">&nbsp;</b>더욱 더 성장하겠습니다</b></h2>
+                  <p> 글로벌 고객사와 협력하여 경쟁력을 끊임없이 키우겠습니다.</p>
+                </div><!--slide_in_txt-->
+              </div><!--slide_in-->
+            </div><!--inner-->
+          </div>
+      </div>
+          </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    <div class="autoplay-progress">
+      <svg viewBox="0 0 48 48">
+        <circle cx="24" cy="24" r="20"></circle>
+      </svg>
+      <span></span>
+    </div>
+  </div>
+  <section id="main_slider">  
+    <div class="inner">
+      <h4 class="main_slider_tit text_rotate">OUR PRODUCT</h4>
+	  <div class="main_slider_in_list flex_col">
+          <button onclick="goNum1();">쇼핑백</button>
+          <button onclick="goNum2();">박스원지</button>
+          <button onclick="goNum3();">신문용지</button>
+          <button onclick="goNum4();">특수 크라프트지</button>
+          <button onclick="goNum5();">지대용 크라프트지</button>
+      </div><!--main_slider_in_cont-->
+	  
+	  <div class="swiper secondSwiper">
+		<div class="swiper-wrapper">
+		  <div class="swiper-slide">
+		    <div class="main_slider_in flex main_slider_num_1">
+				<div class="main_slider_in_text">
+				  <p>BEST PRODUCT</p>
+				  <h2 class="main_slider_in_text_tit">SHOPPING BAG</h2>
+				  <h2>쇼핑백(H) / 쇼핑백(L) / 일반지 / 봉투지</h2>
+				  <p class="main_slider_in_text_txt">
+					<b>재생펄프를 사용함으로써 친환경적이고 경제적인 제품입니다. </b>
+					<b>용도에 따라 다양한 품목에 사용이 가능하며, 모든 제품들은</b> 
+					<b>고객들의 요구사항에 맞춰 생산 가능합니다.</b>
+				  </p>
+				</div><!--main_slider_in_cont-->
+				<div class="main_slider_in_img">
+				  <a href="#"><img src="images/315287752.jpg" alt="쇼핑백 사진"></a>
+				</div><!--main_slider_in_img-->
+			  </div><!--main_slider_in-->
+		  </div>
+		  
+		  <div class="swiper-slide">
+		    <div class="main_slider_in flex main_slider_num_2">
+				<div class="main_slider_in_text">
+				  <p>BEST PRODUCT</p>
+				  <h2 class="main_slider_in_text_tit">SCORRGATED</h2>
+				  <h2>S원지 / 고압강S원지 / 강화골심지</h2>
+				  <p class="main_slider_in_text_txt">
+          <b>FSC 인증 받은 친환경 골판지 박스만을 사용합니다.</b>
+					<b>골판지 박스의 표면지/이면지/골심지로 사용되며</b>
+					<b>요구사항에 따라 다양한 분야에서 사용가능합니다.</b> 
+					<b></b>
+				  </p>
+				</div><!--main_slider_in_cont-->
+				<div class="main_slider_in_img">
+				  <a href="#"><img src="images/box.jpg" alt="박스원지 사진"></a>
+				</div><!--main_slider_in_img-->
+			  </div><!--main_slider_in-->
+		  </div>
+		  
+		  <div class="swiper-slide">
+		    <div class="main_slider_in flex main_slider_num_3">
+				<div class="main_slider_in_text">
+				  <p>BEST PRODUCT</p>
+				  <h2 class="main_slider_in_text_tit">NEWS PAPER</h2>
+				  <h2>내수용 / 수출용 / 고백색 미색 / 백색</h2>
+				  <p class="main_slider_in_text_txt">
+					<b>100% 재생펄프로 생산된 친환경 신문용지 입니다.</b>
+		      <b>신문 인쇄에 사용 시 지절, 주름 등 작업성이 양호하며</b>
+          <b>인쇄 후 인쇄 선명성, 빳빳함 등에 강점이 있습니다.</b>
+				  </p>
+				</div><!--main_slider_in_cont-->
+				<div class="main_slider_in_img">
+				  <a href="#"><img src="images/348763370881865-c7b65201-e2e2-4924-9e54-46bcc9090a5f.jpg" alt="신문용지 사진"></a>
+				</div><!--main_slider_in_img-->
+			  </div><!--main_slider_in-->
+		  </div>
+		  
+		  <div class="swiper-slide">
+		    <div class="main_slider_in flex main_slider_num_4">
+				<div class="main_slider_in_text">
+				  <p>BEST PRODUCT</p>
+				  <h2 class="main_slider_in_text_tit">SPECIAL KRAFT</h2>
+				  <h2>기판지 / 함침지 / 거푸집용함침지</h2>
+				  <p class="main_slider_in_text_txt">
+					<b>패키지 및 하드 커버의 커버링에 이상적입니다. </b>
+					<b>일반 펄프에 비해 훨씬 질기고 유연한 특성을 갖고 있으며</b> 
+					<b>패키지 및 커버에 탁월한 내구성과 기능성을 가미해 줍니다.</b>
+				  </p>
+				</div><!--main_slider_in_cont-->
+				<div class="main_slider_in_img">
+				  <a href="#"><img src="images/7d006f2cefd4a407c667fca905fee506.jpg" alt="특수 크라프트 사진"></a>
+				</div><!--main_slider_in_img-->
+			  </div><!--main_slider_in-->
+		  </div>
+		  
+		  <div class="swiper-slide">
+		    <div class="main_slider_in flex main_slider_num_5">
+				<div class="main_slider_in_text">
+				  <p>BEST PRODUCT</p>
+				  <h2 class="main_slider_in_text_tit">BURLAP KRAFT</h2>
+				  <h2>세미 / 일반지 / 그린지 / PK지 / EK지</h2>
+				  <p class="main_slider_in_text_txt">
+					<b>재생펄프 함유량을 높인 친환경 지대용 크라프트지는  </b>
+					<b>우수한 강도 특성과 합리적인 가격의 제품입니다</b> 
+					<b>제품들은 고객들의 요구사항에 맞춰 생산 가능합니다.</b>
+				  </p>
+				</div><!--main_slider_in_cont-->
+				<div class="main_slider_in_img">
+				  <a href="#"><img src="images/4229d6ba3c9a2fc9c6b62b3b0bd344be.jpg" alt="마대 크라프트 사진"></a>
+				</div><!--main_slider_in_img-->
+			  </div><!--main_slider_in-->
+		  </div>
+	    </div>
+	  </div>
+	  
+	  
+      <div class="main_slider_chevron_btn_wrap">
+        <button class="chevron_btn left slider_prev"></button>
+        <button class="chevron_btn right slider_next"></button>
+      </div>
+    </div>
+  </section>
+  <section id="main_center">
+      <div class="main_center_banner">
+        <div class="main_center_tit_containor">
+        <h4 class="main_center_tit text_rotate">ABOUT PAPERCOREA</h4>
+        </div>
+        <div class="inner">   
+          <div class="main_center_banner_text">
+              <h2>PAPER<b>COREA</b></h2>
+              <span>홍보관 바로가기</span>
+              <a href="#"><span class="arrow_btn"><i class="fas fa-long-arrow-alt-right"></i></span></a>
+          </div><!--main_center_banner_text-->
+        </div><!--inner-->
+
+      </div><!--main_center_banner-->
+      <div class="main_center_slider">
+        <div class="main_center_slider_article_wrap flex">
+          <article class="slider_article" id="rnd_center">
+            <a href="#">
+              <p>Sustainability</p>
+              <h4>지속가능경영</h4>
+              <b>투자하고 싶은 회사</b>
+              <b>지속가능기업으로 나아가겠습니다</b>
+              <span class="arrow_btn"><i class="fas fa-long-arrow-alt-right"></i></span>
+            </a>
+          </article>
+          <article class="slider_article" id="recruit">
+            <a href="#">
+              <p>Recruit</p>
+              <h4>채용정보</h4>
+              <b>각 구성원의 역량을 키우는데</b>
+              <b>최선을 다하고 있습니다</b>
+              <span class="arrow_btn"><i class="fas fa-long-arrow-alt-right"></i></span>
+            </a>
+          </article>
+          <article class="slider_article" id="audit_team">
+            <a href="#">
+              <p>Invest</p>
+              <h4>투자정보</h4>
+              <b>페이퍼코리아의 재무정보를</b>
+              <b>한눈에 보실 수 있습니다</b>
+              <span class="arrow_btn"><i class="fas fa-long-arrow-alt-right"></i></span>
+            </a>
+          </article>
+        </div> <!--main_center_slider_article_wrap-->
+      </div><!--main_center_slider-->
+  </section>
+
+  <section id="main_story">
+    <div class="inner flex">
+      <h4 class="main_story_tit text_rotate">OUR STORY</h4>
+      <div class="main_story_left flex_col">
+        <h2>News Room</h2>
+        <p>페이퍼코리아의 소식을 투명하게 전해드립니다.</p>
+        <a href="#">view more</a>
+        <div class="main_story_left_btn_wrap">
+          <button class="chevron_btn left story_prev"></button>
+          <button class="chevron_btn right story_next"></button>
+        </div>
+      </div>
+      <div class="main_story_right swiper">
+        <div class="main_story_article_wrap flex swiper-wrapper">
+     				<div class="main_story_article_item swiper-slide">
+				  <article class="main_story_article">
+					<a href="#" class="flex_col">
+					  <!-- <div class="article_img"></div> -->
+            <div class="main-story-slide-item-img">
+              <img src="images/news1.jpeg" alt="">
+            </div>
+					  <div class="article_txt">
+						<h4>페이퍼코리아(주), 설명절 맞이 이웃사랑 실천</h4>
+						<p>2023-01-19</p>
+						<span class="arrow_btn"><i class="fas fa-long-arrow-alt-right"></i></span>
+					  </div>
+					</a>
+				  </article>
+				</div>
+				<div class="main_story_article_item swiper-slide">
+				  <article class="main_story_article">
+					<a href="#" class="flex_col">
+					  <!-- <div class="article_img_2">
+					  </div> -->
+            <div class="main-story-slide-item-img">
+              <img src="images/news2.jpeg" alt="">
+            </div>
+					  <div class="article_txt">
+						<h4>페이퍼코리아 공장이전, 지구단위계획 확정</h4>
+						<p>2022-10-17</p>
+						<span class="arrow_btn"><i class="fas fa-long-arrow-alt-right"></i></span>
+					  </div>
+					</a>
+				  </article>
+				</div>
+				<div class="main_story_article_item swiper-slide">
+				  <article class="main_story_article">
+					<a href="#" class="flex_col">
+					  <!-- <div class="article_img_3"></div> -->
+            <div class="main-story-slide-item-img">
+              <img src="images/news3.jpeg" alt="">
+            </div>
+					  <div class="article_txt">
+						<h4>‘종이 가격’ 오르자 치솟는 ‘제지株'</h4>
+						<p>2022-06-05</p>
+						<span class="arrow_btn"><i class="fas fa-long-arrow-alt-right"></i></span>
+					  </div>
+					</a>
+				  </article>
+				</div>
+        </div><!--main_story_article_wrap-->
+      </div><!--main_story_right-->
+    </div><!--inner-->
+    
+  </section>
+  <section id="main_brand">
+    <h4 class="main_brand_tit text_rotate">OUR BRAND</h4>
+    <div class="inner flex">
+      <div class="main_brand_left">
+        <div class="main_brand_left_bg">
+          <div class="main_brand_left_txt">
+            <h4>Natura
+              <b>Paper</b>
+            </h4>
+          </div>
+          <a href="#">나투라페이퍼 바로가기<span><i class="fa-solid fa-arrow-right"></i></span></a>
+        </div>
+      </div><!--main_brand_left-->
+      <div class="main_brand_right flex_col">
+        <h2>NaturaPaper</h2>
+        <p>스페인 장인정신으로 완성된 페이퍼코리아의 프리미엄 종이를 경험할 수 있습니다.</p>
+        <a href="#">view more</a>
+      </div><!--main_brand_right-->
+  </div><!--inner-->
+  </section>
+  <section id="main_gallery">
+    <div class="main_gallery_gallery_bg">
+      <div class="main_gallery_gallery_txt flex_col">
+        <h2>The Ocean City</h2>
+        <p>페이퍼 코리아가 디오션시티를 시작하며 전북이 꿈꿔 온 희망의 도시로 새로운 역사를 이루어갑니다.</p>
+        <span class="arrow_btn"><i class="fas fa-long-arrow-alt-right"></i></span>
+       
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="inner flex">
+      <h1 class="foot_logo"><a href="#"><img src="images/foot_logo.png" alt="안국약품 로고"></a></h1>
+      <div class="foot_center flex_col">
+        <p class="foot_center_link_wrap">
+          <a href="#">이용약관</a>
+          <a href="#">이메일무단수집거부</a>
+          <a href="#">개인정보처리방침</a>
+        </p><!--foot_link_wrap-->
+        <p class="foot_center_address">
+          <b> 서울사무소 : (06265) 서울시 강남구 강남대로 262, 6층(도곡동, 캠코양재타워) Tel 02) 3788-0300 Fax 02) 3788-0322</b>
+          <b>본사 : (54003)전라북도 군산시 외항로 1245 (비응도동)  Tel 063) 440-5000  Fax 063) 440-5050</b>
+
+        </p>
+        <p class="foot_center_copyright">
+          COPYRIGHT(C) 2023 BY PAPERCOREA ALL RIGHTS RESERVED.
+        </p>
+      </div><!--foot_center-->
+
+      <div class="foot_right dropdown">
+        <button class="family_site" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown">Family Site</button>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">(주)나투라페이퍼</a></li>
+          <li><a class="dropdown-item" href="#">(주)디오션시티</a></li>
+        </ul>
+        <!-- <select name="familySite" class="family_site" onchange="selectSite();">
+          <i class="icon" role="img"></i>
+          <option selected="true" disabled="disabled">Family Site</option>
+          <option value="site1_value">(주)나투라페이퍼</option>
+          <option value="site2_value">(주)디오션시티</option>
+      </select> -->
+
+      </div><!--foot_right-->
+    </div><!--inner-->
+  </footer>
+  <div class="quick_btn_wrap">
+    <button class="quick_btn" id="scrollToTopButton">QUICK</button>
+  </div>
+</div>
+  <!-- Swiper JS -->
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    const progressCircle = document.querySelector(".autoplay-progress svg");
+    const progressContent = document.querySelector(".autoplay-progress span");
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+      on: {
+        autoplayTimeLeft(s, time, progress) {
+          progressCircle.style.setProperty("--progress", 1 - progress);
+          progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+        }
+      }
+    });
+    $('.toggle-side-bar-btn').click(function(){
+  //console.log("토글 사이드바 버튼클릭");
+  
+  var $clicked = $(this);
+  var nowAnimating = $clicked.attr('data-ico-now-animating');
+  
+  /* 만약 토글 사이드바 버튼의 요소가 Y가 되면 */
+  if ( nowAnimating == "Y" ){
+      return;
+      /* 함수를 리턴하여 다시 안눌리게 한다 */
+  }
+  
+  /* 만약 클릭된 버튼에 active 클래스가 있다면 */
+  if ( $clicked.hasClass('tive') ){
+      /* 사이드바를 없앤다 */
+      hideLeftSideBar();
+  }
+  else {
+      /* active 클래스가 없으면 나타나게 한다 */
+      showLeftSideBar();
+  }
+  
+  /* 아이콘의 색을 빨간색으로 만듬 */
+  $clicked.attr('data-ico-now-animating', 'Y');
+  
+  /* 아이콘에 active 클래스가 없으면 active 클래스를 넣어주고 있으면 빼줌 */
+  $clicked.toggleClass('tive');
+  
+  /* 버튼 아이콘의 색이 변한 후에 0.4초 뒤에 다시 원래색으로 돌아오게 만듬 */
+  setTimeout(function(){
+      $clicked.attr('data-ico-now-animating', 'N');
+  }, 400);
+});
+
+/* 왼쪽 사이드바 함수 */
+function showLeftSideBar(){
+  /* 메뉴바가 나올때 안에 펼쳐져 있는 메뉴들을 다 접기위해 엑티브를 없앤다 */
+  $('.left-side-bar > .menu-1 ul > li.tive').removeClass('tive');
+  $('.left-side-bar-box').addClass('tive');
+};
+function hideLeftSideBar(){
+  $('.left-side-bar-box').removeClass('tive');
+};
+
+/* 메뉴 접히고 펼치기 */
+$('.left-side-bar > .menu-1 ul > li').click(function(e){
+  //console.log("메뉴 클릭됨");
+  
+  /* 만약 클릭된 메뉴에 엑티브 클래스가 있으면 */
+  if ( $(this).hasClass('tive') ){
+      /* 클릭된 메뉴의 엑티브를 없앤다 */
+      $(this).removeClass('tive');
+  }
+  else {
+      /* 클릭된 메뉴의 형제의 엑티브를 없앤다 */
+      $(this).siblings('.tive').removeClass('tive');
+      
+      /* 클릭된 메뉴(지역)의 엑티브를 없앤다 */
+      $(this).find('.tive').removeClass('tive');
+      
+      /* 클릭된 메뉴의 엑티브를 만든다 */
+      $(this).addClass('tive');
+  }
+  
+  /* 클릭된 메뉴 안에 다른 메뉴를 클릭하면 위에있는 메뉴가 같이 클릭되는데 그것을 막아준다 */
+  e.stopPropagation();
+});
+
+/* 좌측 사이드바 배경을 클릭했을때 */
+$('.left-side-bar-box').click(function(){
+  //console.log('배경클릭');
+  
+  /* 토글 사이드바 버튼을 클릭한 효과를 만듬 */
+  $('.toggle-side-bar-btn').click();
+});
+
+/* 사이드바를 클릭할때 상위요소인 배경이 같이 클릭되어서 사이드바가 들어가버리기 때문에 그것을 막음 */
+$('.left-side-bar').click(function(e){
+  e.stopPropagation();
+});
+  </script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="js/html5.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
